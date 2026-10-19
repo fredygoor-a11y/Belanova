@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#155e50">
+    <meta name="description" content="BELANOVA Centro de Belleza. Peluquería, manicure y tratamientos personalizados para resaltar tu belleza.">
+    <title>BELANOVA | Centro de Belleza</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header id="inicio" class="encabezado">
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a href="#inicio" class="logo">BELA<span>NOVA</span>
+                <small>CENTRO DE BELLEZA</small>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Abrir menú" aria-expanded="false"
+                    aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="menu" id="menu-principal">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#productos">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-texto">
+                <span class="etiqueta">TU BELLEZA, NUESTRA INSPIRACIÓN</span>
+                <h1>Resalta tu belleza.<br><span>Enamórate de ti.</span></h1>
+                <p>
+                    En BELANOVA creamos experiencias de belleza y bienestar
+                    pensadas para ti. Regálate un momento especial y luce
+                    tu mejor versión.
+                </p>
+                <div class="hero-botones">
+                    <a href="#productos" class="btn btn-principal">Descubrir servicios</a>
+                    <a href="#contacto" class="btn btn-secundario">Contáctanos</a>
+                </div>
+                <div class="hero-detalle">
+                    <span>✦ Atención personalizada</span>
+                    <span>✦ Belleza y bienestar</span>
+                </div>
+            </div>
+
+            <div class="hero-imagen">
+                <img src="imagenes/banner belanova.png"
+                     alt="Banner del Centro de Belleza BELANOVA"
+                     class="banner">
+                <div class="sello">
+                    <span>BEAUTY</span>
+                    <strong>&</strong>
+                    <span>WELLNESS</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="seccion nosotros" id="nosotros">
+            <div class="encabezado-seccion">
+                <span class="etiqueta">CONÓCENOS</span>
+                <h2>Más que belleza, <span>bienestar</span></h2>
+                <p>Un espacio creado para cuidar de ti y hacerte sentir especial.</p>
+            </div>
+
+            <div class="mision-vision">
+                <article class="bloque-info">
+                    <div class="icono-info">✧</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Brindar servicios integrales de belleza, cuidado personal
+                        y bienestar, enfocados en resaltar la esencia y la
+                        confianza de cada persona. Nos comprometemos a ofrecer
+                        experiencias únicas mediante técnicas innovadoras,
+                        productos de calidad y un equipo que trabaja con pasión,
+                        respeto y dedicación.
+                    </p>
+                </article>
+
+                <article class="bloque-info">
+                    <div class="icono-info">❋</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Consolidarnos como un centro de belleza reconocido por
+                        su calidad, innovación y excelencia. Aspiramos a integrar
+                        belleza, bienestar y confianza, incorporando nuevas
+                        tendencias y creando un espacio donde cada persona se
+                        sienta valorada, segura y capaz de proyectar su mejor versión.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion ventajas" id="ventajas">
+            <div class="encabezado-seccion">
+                <span class="etiqueta">LA EXPERIENCIA BELANOVA</span>
+                <h2>¿Por qué elegirnos?</h2>
+                <p>Tu satisfacción y bienestar son nuestra prioridad.</p>
+            </div>
+
+            <div class="ventajas-grid">
+                <article class="ventaja">
+                    <span class="ventaja-icono">♡</span>
+                    <h3>Atención personalizada</h3>
+                    <p>Escuchamos tus gustos y necesidades para ofrecerte una experiencia pensada para ti.</p>
+                </article>
+                <article class="ventaja">
+                    <span class="ventaja-icono">✧</span>
+                    <h3>Estilo y creatividad</h3>
+                    <p>Buscamos resaltar tu belleza con propuestas que se adapten a tu estilo.</p>
+                </article>
+                <article class="ventaja">
+                    <span class="ventaja-icono">❀</span>
+                    <h3>Cuidado y bienestar</h3>
+                    <p>Un ambiente agradable para dedicarte tiempo y disfrutar de tu cuidado personal.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion servicios" id="productos">
+            <div class="encabezado-seccion">
+                <span class="etiqueta">CUIDAMOS CADA DETALLE</span>
+                <h2>Nuestros <span>servicios</span></h2>
+                <p>Encuentra ese detalle que te hará sentir increíble.</p>
+            </div>
+
+            <div class="productos">
+                <article class="tarjeta">
+                    <div class="tarjeta-imagen">
+                        <img src="imagenes/cortepelo.png" alt="Servicio de cortes de cabello" loading="lazy">
+                        <span class="tarjeta-numero">01</span>
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-categoria">CABELLO</span>
+                        <h3>Cortes y estilizado</h3>
+                        <p>
+                            Renueva tu estilo con un corte personalizado que
+                            resalte tus facciones. Incluye asesoramiento,
+                            lavado y peinado.
+                        </p>
+                        <div class="tarjeta-pie">
+                            <span class="precio">$45.000 <small>COP*</small></span>
+                            <button type="button" class="btn-agregar" data-agregar="corte">
+                                Añadir al pedido +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="tarjeta-imagen">
+                        <img src="imagenes/manicure.png" alt="Servicio profesional de manicure" loading="lazy">
+                        <span class="tarjeta-numero">02</span>
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-categoria">UÑAS</span>
+                        <h3>Manicure</h3>
+                        <p>
+                            Disfruta de manos cuidadas con limpieza,
+                            hidratación y esmaltado en tonos que reflejen
+                            tu personalidad.
+                        </p>
+                        <div class="tarjeta-pie">
+                            <span class="precio">$30.000 <small>COP*</small></span>
+                            <button type="button" class="btn-agregar" data-agregar="manicure">
+                                Añadir al pedido +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="tarjeta-imagen">
+                        <img src="imagenes/mascarilla.png" alt="Tratamientos faciales y corporales" loading="lazy">
+                        <span class="tarjeta-numero">03</span>
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-categoria">CUIDADO PERSONAL</span>
+                        <h3>Tratamientos</h3>
+                        <p>
+                            Consiente tu piel con opciones de limpieza e
+                            hidratación facial y tratamientos de cuidado
+                            corporal personalizados.
+                        </p>
+                        <div class="tarjeta-pie">
+                            <span class="precio">$60.000 <small>COP*</small></span>
+                            <button type="button" class="btn-agregar" data-agregar="tratamiento">
+                                Añadir al pedido +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="nota-precios">*Precios de demostración. Deben confirmarse y ajustarse a las tarifas reales de BELANOVA.</p>
+        </section>
+
+        <section class="seccion galeria-seccion" id="galeria">
+            <div class="encabezado-seccion">
+                <span class="etiqueta">INSPÍRATE</span>
+                <h2>Nuestra <span>galería</span></h2>
+                <p>Explora nuestro espacio de belleza y cuidado personal.</p>
+            </div>
+
+            <div class="galeria">
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de tintes">
+                    <img src="imagenes/galeria1.jfif" alt="Tintes" loading="lazy">
+                    <span>Color y estilo ↗</span>
+                </button>
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de cepillados">
+                    <img src="imagenes/galeria2.jfif" alt="Cepillados" loading="lazy">
+                    <span>Cabello radiante ↗</span>
+                </button>
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de cortes">
+                    <img src="imagenes/galeria3.jfif" alt="Cortes de cabello" loading="lazy">
+                    <span>Nuevos estilos ↗</span>
+                </button>
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de manicure">
+                    <img src="imagenes/galeria4.jfif" alt="Manicure" loading="lazy">
+                    <span>Detalles que enamoran ↗</span>
+                </button>
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de tratamientos faciales">
+                    <img src="imagenes/galeria5.jfif" alt="Tratamientos faciales" loading="lazy">
+                    <span>Cuida tu piel ↗</span>
+                </button>
+                <button class="galeria-item" type="button" aria-label="Ampliar imagen de tratamientos capilares">
+                    <img src="imagenes/galeria6.jfif" alt="Tratamientos capilares" loading="lazy">
+                    <span>Consiente tu cabello ↗</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="seccion testimonios-seccion" id="testimonios">
+            <div class="encabezado-seccion">
+                <span class="etiqueta">EXPERIENCIAS REALES</span>
+                <h2>Lo que dicen nuestros <span>clientes</span></h2>
+                <p>La confianza y satisfacción de quienes nos visitan nos inspiran.</p>
+            </div>
+
+            <div class="testimonios">
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“¡Me encantó mi cambio de look! Volveré sin duda.”</p>
+                    <h3>Victoria Martínez</h3>
+                    <span>Cliente BELANOVA</span>
+                </article>
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“Excelente trabajo. Se nota el profesionalismo y la dedicación en cada servicio.”</p>
+                    <h3>Daniela López</h3>
+                    <span>Cliente BELANOVA</span>
+                </article>
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“¡Me dejaron el cabello espectacular! El manicure también es muy recomendable.”</p>
+                    <h3>Alejandra Gómez</h3>
+                    <span>Cliente BELANOVA</span>
+                </article>
+            </div>
+            <p class="nota-precios">Testimonios de ejemplo para presentación. Publícalos como reales únicamente si corresponden a opiniones auténticas de tus clientes.</p>
+        </section>
+
+        <section class="seccion contacto-seccion" id="contacto">
+            <div class="contacto-intro">
+                <span class="etiqueta">ESTAMOS PARA TI</span>
+                <h2>Hablemos de tu <span>próximo look</span></h2>
+                <p>
+                    ¿Tienes dudas o quieres consultar nuestros servicios?
+                    Envíanos un mensaje y conversemos.
+                </p>
+
+                <div class="contacto-dato">
+                    <span class="dato-icono">☎</span>
+                    <div><strong>Teléfono</strong><a href="tel:+573163224956">316 322 4956</a></div>
+                </div>
+                <div class="contacto-dato">
+                    <span class="dato-icono">✉</span>
+                    <div><strong>Correo electrónico</strong><a href="mailto:patriciamunoz@gmail.com">patriciamunoz@gmail.com</a></div>
+                </div>
+                <a class="btn btn-principal" href="https://wa.me/573163224956" target="_blank" rel="noopener noreferrer">
+                    Escribir por WhatsApp
+                </a>
+            </div>
+
+            <div class="contacto-formulario">
+                <h3>Envíanos un mensaje</h3>
+                <p>Completa tus datos y prepara tu mensaje para WhatsApp.</p>
+
+                <form class="formulario" id="formulario-contacto">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre"
+                           placeholder="¿Cómo te llamas?" autocomplete="name" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo"
+                           placeholder="correo@ejemplo.com" autocomplete="email" required>
+
+                    <label for="mensaje">¿En qué podemos ayudarte?</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"
+                              placeholder="Cuéntanos qué servicio te interesa..." required></textarea>
+
+                    <button class="btn btn-principal btn-enviar" type="submit">
+                        Enviar mensaje ↗
+                    </button>
+                    <p class="form-nota">Se abrirá WhatsApp para que puedas revisar y enviar tu mensaje.</p>
+                    <p id="estado-formulario" class="estado-formulario" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <a href="#inicio" class="logo logo-footer">BELA<span>NOVA</span>
+            <small>CENTRO DE BELLEZA</small>
+        </a>
+        <p>Un espacio para ti, tu belleza y tu bienestar.</p>
+        <div class="footer-enlaces">
+            <a href="#nosotros">Nosotros</a>
+            <a href="#productos">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <p class="copyright">© 2026 BELANOVA Centro de Belleza. Todos los derechos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/573163224956" class="whatsapp"
+       target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <img src="imagenes/whatsapp (1).png" alt="">
+    </a>
+
+    <button type="button" class="carrito-flotante" id="btn-abrir-carrito"
+            aria-label="Abrir carrito de compras" aria-controls="carrito-ventana"
+            aria-expanded="false">
+        🛒 <span id="contador-carrito">0</span>
+    </button>
+
+    <div class="carrito-overlay" id="carrito-overlay"></div>
+
+    <aside class="carrito-lateral" id="carrito-ventana"
+           aria-label="Tu pedido" aria-hidden="true" inert>
+        <div class="carrito-contenido">
+            <div class="carrito-cabecera">
+                <div>
+                    <span class="etiqueta">BELANOVA</span>
+                    <h2>Tu pedido</h2>
+                </div>
+                <button type="button" id="btn-cerrar-carrito"
+                        class="btn-cerrar" aria-label="Cerrar carrito">&times;</button>
+            </div>
+
+            <div class="carrito-items" id="lista-carrito" aria-live="polite">
+                <p class="carrito-vacio">Tu carrito está esperando algo especial. ✨</p>
+            </div>
+
+            <div class="carrito-pie">
+                <div class="carrito-total">
+                    <span>Total estimado</span>
+                    <strong id="precio-total">$0</strong>
+                </div>
+                <p class="carrito-aclaracion">El precio final se confirma con BELANOVA por WhatsApp.</p>
+                <button type="button" id="btn-enviar-whatsapp" class="btn btn-confirmar" disabled>
+                    Confirmar pedido por WhatsApp ↗
+                </button>
+                <button type="button" id="btn-vaciar-carrito" class="btn-vaciar" disabled>
+                    Vaciar carrito
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <div class="visor-galeria" id="visor-galeria" aria-hidden="true" inert>
+        <button type="button" class="visor-cerrar" id="visor-cerrar" aria-label="Cerrar imagen">&times;</button>
+        <button type="button" class="visor-anterior" id="visor-anterior" aria-label="Imagen anterior">‹</button>
+        <figure>
+            <img id="visor-imagen" src="" alt="">
+            <figcaption id="visor-descripcion"></figcaption>
+        </figure>
+        <button type="button" class="visor-siguiente" id="visor-siguiente" aria-label="Imagen siguiente">›</button>
+    </div>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
